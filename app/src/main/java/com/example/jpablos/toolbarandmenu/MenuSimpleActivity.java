@@ -26,7 +26,7 @@ public class MenuSimpleActivity extends AppCompatActivity {
 
         switch (item.getItemId()) {
             case R.id.menu_settings:
-                cadena = "Menu Settings";
+                cadena = "Opciones Settings";
                 break;
             case R.id.menu_sub1:
                 cadena = "SubMenu1 Settings";
@@ -35,13 +35,13 @@ public class MenuSimpleActivity extends AppCompatActivity {
                 cadena = "SubMenu2 Settings";
                 break;
             case R.id.menu_search:
-                cadena = "Menu Search";
+                cadena = "Opciones Search";
                 break;
             case R.id.menu_add_item:
-                cadena = "Menu Add Item";
+                cadena = "Opciones Add Item";
                 break;
             case R.id.menu_help:
-                cadena = "Menu Help";
+                cadena = "Opciones Help";
                 break;
         }
 

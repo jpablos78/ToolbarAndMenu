@@ -23,4 +23,28 @@
         android:layout_marginTop="5dp"
         android:layout_below="@id/button_menu_simple"
         android:text="Toolbar con Menu" />
+
+    <Button
+        android:id="@+id/button_popup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/button_toolbar"
+        android:text="Popup Menu" />
+
+    <Button
+        android:id="@+id/button_dinamico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/button_popup"
+        android:text="Menu Dinamico" />
+
+    <Button
+        android:id="@+id/button_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/button_dinamico"
+        android:text="Menu Drawer" />
 </RelativeLayout>
